@@ -2,11 +2,10 @@ import Link from "next/link";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "01032347077";
+  const phoneNumber = "201032347077";
   const message = "أهلاً برينتكس، كنت محتاجة استفسر عن.....";
 
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
+const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <>
   <div className="flex justify-between gap-2 fixed bottom-6 end-6 z-[999]">
