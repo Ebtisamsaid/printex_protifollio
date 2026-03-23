@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
-
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const withNextIntl = createNextIntlPlugin();
 const nextConfig: NextConfig = {
   // 1. إضافة رؤوس الأمان لحماية الموقع من الاختراق
   async headers() {
@@ -42,5 +44,5 @@ const nextConfig: NextConfig = {
   reactStrictMode: true, // تفعيل وضع التدقيق الصارم لاكتشاف المشاكل برمجياً
   poweredByHeader: false, // إخفاء معلومة أن الموقع مبني بـ Next.js لمنع الهاكرز من استهداف تقنيات محددة
 };
-
-export default nextConfig;
+export default withNextIntl(nextConfig);
+// export default nextConfig;

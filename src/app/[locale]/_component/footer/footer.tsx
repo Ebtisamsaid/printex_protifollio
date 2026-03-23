@@ -1,13 +1,15 @@
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Contact(){
     const currentYear = new Date().getFullYear()
+    const t = useTranslations("footer")
     return <>
     <section className="bg-[#303030] p-16 md:p-4 " id="section-contact">
         <div id="section-contact" className="container mx-auto flex-col md:flex-row flex justify-between items-center " >
   <div className="my-20 flex-[3]">
-              <h1 className="text-4xl font-bold text-white">Smart Solutions for Modern Businesses. Have More Questions?</h1>
-       <p className=" my-8 font-semibold text-white">Our team provides reliable printing solutions tailored to your business needs.
+              <h1 className="text-4xl font-bold text-white">{t("title")}</h1>
+       <p className=" my-8 font-semibold text-white">{t("desc")}
 
 </p>
   </div>

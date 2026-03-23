@@ -1,7 +1,9 @@
 "use client"
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 export default function Boxpic(){
+  const t =useTranslations("hero")
     return <>
     <motion.div className="ml-10 w-full md:w-1/2"
      initial={{ opacity: 0, x: -100 }}
@@ -24,7 +26,7 @@ export default function Boxpic(){
             ease: "easeOut" 
           }}
     className="text-white md:text-5xl leading-tight text-4xl font-bold mt-10">
-        Spark Your Creativity, We’ll Handle the Print
+   {t("title")}
     </motion.h1>
 
     <motion.p
@@ -35,7 +37,7 @@ export default function Boxpic(){
             delay: 0.6, 
             ease: "easeOut" 
           }}
-    className="text-white md:text-md leading-tight text-xl font-[cairo] mt-10">We turn your ideas into high-quality prints designed to impress.
+    className="text-white md:text-md leading-tight text-xl font-[cairo] mt-10">{t("desc")}
     </motion.p>
 <motion.p 
   initial={{ y: 50, opacity: 0 }} 
@@ -45,7 +47,7 @@ export default function Boxpic(){
             delay: 0.8, 
             ease: "easeOut" 
           }}
-className="text-white md:text-md leading-tight text-xl font-[cairo] mt-10">Our printing process uses advanced technology and premium materials, ensuring sharp details, vibrant colors, and consistent results for every order.
+className="text-white md:text-md leading-tight text-xl font-[cairo] mt-10">{t("desc2")}
 </motion.p>
 </div>
     </>

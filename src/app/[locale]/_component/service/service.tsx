@@ -1,13 +1,14 @@
 import Image from "next/image";
 import FilmSlider from "./slider";
+import { useTranslations } from "next-intl";
 
 export default function Service(){
-
+const t =useTranslations("service")
     return <>
 <section className="bg-[#eee1dd]" id="section-services">
    <div className="container px-4 py-10 mx-auto ">
      <div className="text-center">
-        <h2 className="font-bold text-xl md:text-6xl font-[cairo]">Check Out Our Services...</h2>
+        <h2 className="font-bold text-xl md:text-6xl font-[cairo]">{t("title")}</h2>
     </div>
 <div className="grid grid-cols-3 gap-4 lg:gap-8 mt-8">
    

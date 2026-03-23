@@ -1,0 +1,40 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "services": "Services"
+  },
+    "hero":{
+    "title":"Spark Your Creativity, We’ll Handle the Print",
+    "desc":"We turn your ideas into high-quality prints designed to impress.",
+    "desc2":"Our printing process uses advanced technology and premium materials, ensuring sharp details, vibrant colors, and consistent results for every order."
+
+  },
+  "service":{
+    "title":"Check Out Our Services..."
+  },
+  "about":{
+    "title1":"Why Clients Choose Our Print Services...",
+    "title2":"Reliable printing solutions designed to deliver quality, speed, and complete customization for every order."
+  },
+    "about-card1":{
+    "title":"Custom Solutions",
+    "desc":"We offer fully customizable printing services, allowing clients to create unique designs that perfectly match their vision and brand identity"
+    },
+        "about-card2":{
+    "title":"Fast Delivery",
+    "desc":"We ensure timely delivery of all printed materials, meeting deadlines without compromising on quality"
+  },
+          "about-card3":{
+    "title":"Vibrant Prints",
+    "desc":"Our printing process uses advanced technology and premium materials, ensuring sharp details, vibrant colors, and consistent results for every order."
+  },
+  "footer":{
+    "title":"Smart Solutions for Modern Businesses. Have More Questions?",
+    "desc":"Our team provides reliable printing solutions tailored to your business needs."
+
+  }
+
+
+}
