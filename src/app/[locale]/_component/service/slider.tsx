@@ -26,11 +26,12 @@ export default function FilmSlider() {
       <motion.div
         className="flex gap-8 w-max" 
         animate={{
-          x: ["0%", "-50%"]
+          x: ["0%", "-30%"]
         }}
         transition={{
           ease: "linear",
           duration: 20, 
+          delay:1,
           repeat: Infinity, 
         }}
       >
