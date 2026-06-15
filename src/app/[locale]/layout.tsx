@@ -28,6 +28,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}  dir={direction}>
       <head>
+        <meta name="google-site-verification" content="_82bbGVHwPZi3RP3_3d-4j-WXHeC_XWTfV3dw3IT3-w" />
 <Script id="fb-pixel" strategy="afterInteractive">
 {/* !function(f,b,e,v,n,t,s)
 {
