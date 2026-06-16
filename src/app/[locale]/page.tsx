@@ -8,8 +8,7 @@ import WhatsAppButton from "./_component/navbar/whatsapp/whatsapp";
 
 
 export const metadata: Metadata = {
-  title: 'printex',
-  description: 'موقع برنتكس ',
+ 
   icons: {
     icon: '/favicon.jpeg', 
   },
