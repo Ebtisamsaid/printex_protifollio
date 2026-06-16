@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = 'https://printexegy.com';
+  const baseUrl = 'https://www.printexegy.com/ar';
 
   return [
     {
