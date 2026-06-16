@@ -8,15 +8,17 @@ import WhatsAppButton from "./_component/navbar/whatsapp/whatsapp";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
-  // العنوان الذي يظهر في بحث جوجل (يفضل أن يكون بين 50-60 حرف)
+  title: 'printex',
+  description: 'موقع برنتكس ',
+  icons: {
+    icon: '/favicon.jpeg', 
+  },
+  metadataBase: new URL("https://www.printexegy.com/en"),
   title: " برينتكس | خدمات طباعة رقمية وإعلانية - Printex Printing Services",
 
-  // الوصف الذي يظهر تحت العنوان (يفضل أن يكون بين 150-160 حرف)
   description:
     "اكتشف خدمات برينتكس للطباعة عالية الجودة، من البروشورات والكروت الشخصية إلى اللوحات الإعلانية الضخمة. دقة في التنفيذ وسرعة في التسليم.",
 
-  // الكلمات المفتاحية (اختياري، لكنها تساعد في تنظيم الفئات)
   keywords: [
     "طباعة",
     "printing",
@@ -36,15 +38,14 @@ export const metadata: Metadata = {
     "Brochures",
   ],
 
-  // لإعدادات ظهور الرابط عند مشاركته على فيسبوك أو تويتر
   openGraph: {
     title: "برينتكس للطباعة والإعلان",
     description: "جودة تليق بعلامتك التجارية",
-    url: "https://your-domain.com", // استبدله برابط موقعك الحقيقي لاحقاً
+    url: "https://www.printexegy.com/en", 
     siteName: "Printex",
     images: [
       {
-        url: "/printex-logo.jpeg", // سيستخدم اللوجو الخاص بك كصورة للمشاركة
+        url: "/printex-logo.jpeg", 
         width: 800,
         height: 600,
       },
